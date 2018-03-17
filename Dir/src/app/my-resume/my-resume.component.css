@@ -1,0 +1,20 @@
+img.jobscreenshot {
+  max-width: 25em;
+}
+
+img.jobcar {
+  max-width: 100em;
+  max-height: 30em;
+}
+
+div.dark {
+  -webkit-box-shadow: inset 0px 0px 300px 0px grey;
+  -moz-box-shadow: inset 0px 0px 300px 0px grey;
+  box-shadow: inset 0px 0px 300px 0px grey;
+
+  text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+}
+
+.jobsrouter {
+  position: relative;
+}

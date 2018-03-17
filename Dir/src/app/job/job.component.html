@@ -1,0 +1,36 @@
+
+<div class="card bg-inverse">
+  <br>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      <h1 class="cover-heading">{{job.title}}
+      <span class="atjob">
+        <a class="jobsite" [href]="job.link">@{{job.Name}}</a></span>
+      </h1>
+    </div>
+    <div class="col"></div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      <ul class="list-group">
+        <li *ngFor="let res of job.responsibilities" class="list-group-item bg-inverse">{{res}}</li>
+      </ul>
+    </div>
+    <div class="col"></div>
+  </div>
+  <br>
+  <div class="jobcontact row text-center">
+    <div class="col">
+      <h4 class="subTitleText">Address:</h4>
+      <p>{{job.Address}}</p>
+    </div>
+    <div class="col">
+      <h4 class="subTitleText">Duration:</h4>
+      <p>{{job.duration}}</p>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,27 @@
+<br>
+<br>
+<br>
+<br>
+<ngb-carousel>
+  <ng-template *ngFor="let portfolioItem of portfolioItems; let i = index;" [id]="i" ngbSlide>
+    <a routerLink="portfolioItem/{{i}}">
+      <img class="portfolioItemcar" [src]="portfolioItem.image" alt="portfolioItem Website Screenshot">
+      <div class="carousel-caption dark rounded">
+        <h1 class="cover-heading">{{portfolioItem.Name}}</h1>
+      </div>
+    </a>
+  </ng-template>
+</ngb-carousel>
+<br>
+
+<div class="portfolioItemrouter">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="mastfoot">
+  <div class="inner text-center" id="portfoliofooter">
+    <p>
+      Email me: paulsemail47@gmail.com. Click the Porfolio Item for more Info.
+    </p>
+  </div>
+</div>

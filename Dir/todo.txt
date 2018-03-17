@@ -1,0 +1,18 @@
+todo.
+
+add my picture to the about Me.
+
+upload my unfolding word viewer to github => get and store link on portfolio
+item instance.
+
+drop the dist folder from my computer onto my VPS.
+
+upload the unfolding word viewer dist and backend to a seperate folder on the
+VPS and serve the application.
+
+Test that everything works for now.
+
+start a blog... eventually.
+
+learn FireBase. Use that to make a website or something. you paid for tutorials
+with angular and firebase after all you might as well use it. duh.

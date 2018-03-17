@@ -1,0 +1,13 @@
+.mastfoot {
+  position: fixed;
+  bottom: 0;
+}
+
+.leadtxt {
+  padding-top: 0.6em;
+  padding-right: 1em;
+}
+
+.inner.cover {
+  text-align: center;
+}

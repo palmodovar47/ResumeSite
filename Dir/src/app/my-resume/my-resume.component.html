@@ -1,0 +1,25 @@
+<br>
+<br>
+<br>
+<br>
+<ngb-carousel>
+  <ng-template  *ngFor="let job of jobs; let i = index;" [id]="i" ngbSlide>
+    <a routerLink="job/{{i}}" [ngx-scroll-to]="'#resumefooter'" >
+      <img class="jobcar" [src]="job.image" alt="Job Website Screenshot">
+      <div class="carousel-caption dark rounded">
+        <h1 class="cover-heading">{{job.Name}}</h1>
+      </div>
+    </a>
+  </ng-template>
+</ngb-carousel>
+<br>
+
+<div class="jobsrouter">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="mastfoot" id="resumefooter">
+  <div class="inner text-center">
+    <p>Email me: paulsemail47@gmail.com. Click the Job for more Info.</p>
+  </div>
+</div>

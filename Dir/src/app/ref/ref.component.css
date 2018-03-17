@@ -1,0 +1,17 @@
+.mastfoot {
+  position: fixed;
+  bottom: 0;
+}
+
+.refimage {
+  max-width: 10em;
+  max-height: 10em;
+}
+
+.atjob {
+  font-size: 0.5em;
+}
+
+.bloglink {
+  font-size: 0.8em;
+}

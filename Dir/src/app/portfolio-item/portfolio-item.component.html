@@ -1,0 +1,31 @@
+<div class="card bg-inverse">
+  <br>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      <h1 class="cover-heading text-center">{{portfolioItem.Name}}</h1>
+    </div>
+    <div class="col"></div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      <p>
+        {{portfolioItem.blurb}}
+      </p>
+    </div>
+    <div class="col"></div>
+  </div>
+  <br>
+  <div class="portfolioItemcontact row text-center">
+    <div class="col">
+      <h4 class="subTitleText">GitHub Link</h4>
+      <p><a [href]="portfolioItem.gitHubLink">{{portfolioItem.gitHubLink}}</a></p>
+    </div>
+    <div class="col">
+      <h4 class="subTitleText">Live Demo:</h4>
+      <p><a [href]="portfolioItem.link">{{portfolioItem.link}}</a></p>
+    </div>
+  </div>
+</div>
